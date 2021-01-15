@@ -1,0 +1,45 @@
+.panelNotClickable{
+    width:100px;
+    height:100px;
+    background-color:lightgray;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.panelClickable{
+    border: 1px solid black;
+    background-color:#66e0ff;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.panelClickableActive{
+    border: 1px solid white;
+}
+
+.panelClickableVertical{
+    width:100px;
+    height:500px;
+}
+
+.panelClickableHorizontal{
+    width:500px;
+    height:100px;
+}
+
+.component{
+    width:700px;
+    height:400px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.panelImage{
+    width:500px;
+    height:500px;
+    background-color:lightgray;
+    position: relative;
+}
+
+.panelImage > img{
+    position:absolute;
+}
